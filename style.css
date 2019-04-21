@@ -4,5 +4,9 @@ p {
 
 .wrapper {
     width: 80%;
-    margin: 0 auto;
 }
+
+.image_full_width{
+	max-width: 100%
+}
+
