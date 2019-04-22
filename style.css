@@ -2,16 +2,13 @@ p {
 	max-width: 70%;
 }
 
+h1{
+	font-size: 200%;
+}
+
 h2 {
     background-color: lightgrey;
    	max-width: 500px;
-}
-
-body {
-  	background-image: url("croped_top.jpg");
-  	background-size: 100% 7%;
-  	background-position: top;
-  	background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -26,12 +23,27 @@ body {
 }
 
 #img_top{
-	background-image: url("img_top.jpg")
+	background-image: url("img_top.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
 #img_bottom{
-	background-image: url("img_bottom.jpg")
+	background-image: url("img_bottom.jpg");
+	background-repeat: no-repeat;
 }
 
+
+#name{
+	font-size: 400%;	
+	font-weight: 200%;
+	text-align: center;
+}
+
+#disclaimer{
+	color: grey;
+	font-size: 70%;
+}
 
 
