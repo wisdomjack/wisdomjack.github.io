@@ -1,12 +1,37 @@
 p {
-	max-width: 500px;
+	max-width: 70%;
+}
+
+h2 {
+    background-color: lightgrey;
+   	max-width: 500px;
+}
+
+body {
+  	background-image: url("croped_top.jpg");
+  	background-size: 100% 7%;
+  	background-position: top;
+  	background-repeat: no-repeat;
 }
 
 .wrapper {
-    width: 100%;
+    width: 70%;
+    margin: 2% 10%;
+    background-color: white;
 }
 
 .image_full_width{
 	max-width: 100%
+
 }
+
+#img_top{
+	background-image: url("img_top.jpg")
+}
+
+#img_bottom{
+	background-image: url("img_bottom.jpg")
+}
+
+
 
