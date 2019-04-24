@@ -60,11 +60,16 @@ h1{
 }
 
 
-.img_bottom{
+#page-container{
+ position: relative;
+  
+ }
+
+#img_bottom{
 	background-image: url("img_bottom.jpg");
-	height: 100%;
-	width: 100%;
 	background-size: 100%;
-	background-repeat: no-repeat;
-  	bottom: 0;
+	position: absolute;
+  	bottom: 1;
+  	width: 100%;
+  	
 }
