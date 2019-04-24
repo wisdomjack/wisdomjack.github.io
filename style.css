@@ -47,6 +47,7 @@ h1{
 }
 
 #img_bottom{
+	position: bottom;
 	background-image: url("img_bottom.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
