@@ -46,13 +46,17 @@ h1{
 	background-repeat: no-repeat;
 }
 
-#img_bottom{
-	position: bottom;
+
+
+.img_bottom {
 	background-image: url("img_bottom.jpg");
 	background-size: 100%;
-	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
 }
-
 
 #name{
 	font-size: 400%;	
