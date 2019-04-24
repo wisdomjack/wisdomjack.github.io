@@ -47,17 +47,6 @@ h1{
 }
 
 
-
-.img_bottom {
-	background-image: url("img_bottom.jpg");
-	background-size: 100%;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
-}
-
 #name{
 	font-size: 400%;	
 	font-weight: 200%;
@@ -67,6 +56,15 @@ h1{
 #disclaimer{
 	color: grey;
 	font-size: 70%;
+
 }
 
 
+.img_bottom{
+	background-image: url("img_bottom.jpg");
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+  	bottom: 0;
+}
