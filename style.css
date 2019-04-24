@@ -6,11 +6,6 @@ h1{
 	font-size: 200%;
 }
 
-h2 {
-    background-color: lightgrey;
-   	max-width: 500px;
-}
-
 .wrapper {
     width: 70%;
     margin: 2% 10%;
@@ -19,7 +14,30 @@ h2 {
 
 .image_full_width{
 	max-width: 100%
+}
 
+.collapsible {
+  background-color: #888;
+  color: white;
+  cursor: pointer;
+  padding: 0%;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 100%;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 2%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
 }
 
 #img_top{

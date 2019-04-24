@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   	<meta charset="utf-8">
-  	<title>The HTML5 Herald</title>
+  	<title>Jack Archer</title>
   	<meta name="description" content="The HTML5 Herald">
  	<meta name="author" content="SitePoint">
   	<link rel="stylesheet" href="style.css">
@@ -35,19 +35,23 @@
 
 		<br>
 		<br>
-		<br>
+	
 
 		<h1>Projects:</h1>
-		<h2>>Proteases web app</h2>
+
+		<button class="collapsible"><h2>Proteases web app</h2></button>
+		<div class="content">
 		<p>This is a web aplication created in R/Shiny that simulates the digestion of a peptide by serine proteases.</p>
 		<a href=" https://jackarcher.shinyapps.io/Proteases3/">proteases demo</a>
 		<br>
 		<a href=" https://github.com/wisdomjack/proteases">source code</a>
-		 
 		<br>
 		<br>
 		<br>
-		<h2>>Meerbot</h2>
+		</div>
+		
+		<button class="collapsible"><h2>Meerbot</h2></button>
+		<div class="content">
 		<p>Meerbot is a Raspberry Pi based three wheel robot. It is powered by 3V motors that allow it to traverse through space. Python library gpio_zero is used to control the motors. The bot is controlled over wifi with a built-in R/Shiny server.</p>
 		<p>The name Meerbot stands for the Bionic Meerkat.</p>
 
@@ -62,17 +66,19 @@
 		<br>
 		<br>
 		<br>
-		<h2>>Twitter Library Bot</h2>
+		</div>
+
+		<button class="collapsible"><h2>Twitter Library Bot</h2></button>
+		<div class="content">
 		<p>This is a twitter bot written in python. The bot can access random quote from a random book on Project Gutenberg and tweet it.</p>
 		<a href="https://github.com/wisdomjack/quote-of-the-day-gutenberg">source code</a>
 		<br>
 		<br>
 		<a class="twitter-timeline" data-width="500" data-height="470" href="https://twitter.com/gurcov1992?ref_src=twsrc%5Etfw">Tweets by gurcov1992</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+
 	</section>
-	<br>
-	<br>
-	<br>
-	<br>
+	
 	<p id = "disclaimer"> 
 		background image "Nebula" by https://wallpaperaccess.com/full/250472.jpg
 	</p>
@@ -83,6 +89,23 @@
 		<br>
 	</div>
 </body>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}</script>
+
 </html>
 
 
