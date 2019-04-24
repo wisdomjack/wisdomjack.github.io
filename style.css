@@ -57,18 +57,19 @@ h1{
 	color: grey;
 	font-size: 70%;
 
+
 }
 
 
 #page-container{
  position: relative;
-  
+
  }
 
 #img_bottom{
+	position: absolute;
 	background-image: url("img_bottom.jpg");
 	background-size: 100%;
-	position: absolute;
   	bottom: 1;
   	width: 100%;
   	
